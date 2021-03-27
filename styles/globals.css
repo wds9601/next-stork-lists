@@ -1,16 +1,6 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+/*  second option for implementing TailwindCSS is to use this existing globals.css file and import Tailwind dependencies into it (like above), make sure to import the appropriate file into '_app.js' */
+/* ive kept this file in the chance that i want to create custom Tailwind templates */
